@@ -1,0 +1,89 @@
+{
+  "name": "Bijoux Deluxe - Colliers & Gourmettes Personnalisés",
+  "short_name": "Bijoux Deluxe",
+  "description": "Découvrez nos bijoux personnalisés en acier inoxydable. Colliers et gourmettes style graine de café, lettres, initiales, dates.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#D4AF37",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "image_logo_video/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "image_logo_video/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "image_logo_video/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "image_logo_video/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["shopping", "e-commerce"],
+  "screenshots": [
+    {
+      "src": "image_logo_video/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "image_logo_video/screenshot-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Voir les Produits",
+      "short_name": "Produits",
+      "description": "Voir tous nos bijoux personnalisés",
+      "url": "index.html#products",
+      "icons": [
+        {
+          "src": "image_logo_video/products-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Galerie",
+      "short_name": "Galerie",
+      "description": "Parcourir notre galerie de bijoux",
+      "url": "index.html#gallery",
+      "icons": [
+        {
+          "src": "image_logo_video/gallery-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "index.html",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}

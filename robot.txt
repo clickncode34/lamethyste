@@ -1,0 +1,1 @@
+- PROMPT POUR IA VISUAL STUDIO CODE, ta mission ici et de crée le meilleurs robot.txt pour les moteur de recherche, fait le maximum possible (efface toute cette ligne quand tu a finis le robot.txt)
