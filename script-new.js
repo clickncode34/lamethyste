@@ -1,4 +1,4 @@
-// ===== Bijoux Deluxe - Script Principal =====
+// ===== Bijou2luxe - Script Principal =====
 // Configuration
 const CONFIG = {
     STRIPE_PUBLIC_KEY: 'pk_live_YOUR_PUBLIC_KEY_HERE'
@@ -41,12 +41,12 @@ let currentProduct = null;
 
 // ===== Initialization =====
 function init() {
-    console.log('🎁 Bijoux Deluxe - Initializing...');
+    console.log('🎁 Bijou2luxe - Initializing...');
     setupBuyButtons();
     setupModalHandlers();
     setupSmoothScroll();
     setupAnimations();
-    console.log('✅ Bijoux Deluxe - Ready!');
+    console.log('✅ Bijou2luxe - Ready!');
 }
 
 // ===== Buy Button Setup =====
