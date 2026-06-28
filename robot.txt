@@ -1,4 +1,4 @@
-# robots.txt - Bijoux2Luxe - Bijoux Personnalisés
+# robots.txt - Bijou2Luxe - Bijoux Personnalisés
 # Boutique e-commerce de bijoux personnalisés style graine de café
 
 # Autoriser tous les moteurs de recherche
@@ -42,7 +42,7 @@ Allow: *.json
 Crawl-delay: 1
 
 # Référence au sitemap
-Sitemap: https://bijoux2luxe.fr/sitemap.xml
+Sitemap: https://bijou2luxe.fr/sitemap.xml
 
 # Meta robots pour Googlebot - Priorité SEO
 User-agent: Googlebot
